@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Custom Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link href="styles/default.css" rel="stylesheet">
+
+    <!-- Custom Javascript -->
+    <script src="scripts/default.js"></script>
+
+    <title>SkillResults</title>
+
+</head>
+
+<body>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg  navbar-custom navbar-light fixed-top">
+
+        <div class="container text-nowrap">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="#"><img src="images/logo.png" style="height:50px;"></a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end " id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link" href="#usecases">Use Cases</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link" href="#freetrial">Free Trial</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <div style="margin-right:20px;"> <a class="nav-link" href="#contact">Contact</a></div>
+                    </li>
+                    
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="https://app.skillresults.com/register/trial" title="Register" target="_blank">
+                        <div class="navbar_button" style="background-color: #15b458;">Sign Up</div>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="https://app.skillresults.com/login" title="Login" target="_blank">
+                            <div class="navbar_button" style="background-color: #1076bc;">login</div>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+    
+    <!--Placeholder to Adjust for Fixed Header-->
+    <div style="width:100%; height:67px;"></div>
+
+    <!--Main Area Banner-->
+     <div class="main_area" style="height:400px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="main_text">
+                        MANAGE SKILLS ACROSS A TEAM, A DEPARTMENT, OR YOUR ENTIRE ENTERPRISE!
+                    </div>
+                </div>
+                <div class="col d-none d-lg-block">
+                    <div class="main_banner">
+                        <img src="images/main_image.png" class="main_image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Main 2 Area Banner-->
+    <div class="main2_area">
+
+        <div class="container">
+
+            <div class="row">
+
+                <!--Free Assesment Report Image -->
+                <div class="col-md-12 col-lg-6">
+                    <div style="margin-bottom:20px;">
+                        <img src="images/screens.png" width="500px;">
+                    </div>
+                </div>
+
+                <!--Free Assesment Report Details-->
+                <div class="col-md-12 col-lg-6">
+                    <div style="padding-left:20px;">
+
+                        <div class="main2_text_title">SKILL & TALENT MANAGMENT</div>
+
+                        <div class="main2_text_description">
+
+                            SkillResults is an cloud software solution that allows you to manage your organizations skills, education and talent. Easily track your employees' current skills, education, training, and proficiencies. SkillResults helps you get a solid handle on your organizational skills, education and certification posture.
+                            <br>
+                            <br>
+                            Schedule your demo or free trial today! We would love to help you get the most out of your talent investment. 
+                            
+                            <a href="#freetrial"><div class="features_learnmore">Learn More...</div></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Scroll Point (offset for fixed header)-->
+    <div id="features" style="position: relative; bottom:67px;"></div>
+
+    <!--Features Area-->
+    <div class="features_area">
+
+        <div class="container">
+            <div class="features_title">Features of SkillResults</div>
+
+            <div class="features_description">SkillResults makes tracking professional skills, educational credentials and certifications a breeze! Over 9000 professional skills, academic institutions, degrees, popular certifications and more are pre-loaded and ready to go. Now you won't have to guess who is skilled or credentialed in what because you'll have that information at your fingertips. Want to know more? Check out our <a href="" data-toggle="modal" data-target="#faq_modal" style="color:#555555; font-weight: 600">Frequently Asked Questions</a></div>
+
+                <div class="row">
+
+                <!-- 1. Track Professional Skills -->
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                    <div class="services_cardwrapper">
+                        <div class="services_card_iconarea" style="background-color: #00ba9f">
+                            <img src="/images/icon_skills.png" class="services_card_icon">
+                        </div>
+                        <div class="services_card_content">
+                            <div class="services_card_title">Track Individual Professional Skills</div>
+                            <div class="services_card_text">
+                                SkillResults allows your users to easily enter their professional skills so adoption is simple and straightforward. 
+                            </div>
+                            <div class="services_card_list">
+                                <ul>
+                                    <li>Pick skills from a pre-populated Catalog</li>
+                                    <li>Enter Custom, Org-Specific Skills</li>
+                                    <li>Capture Skill Proficiency Ratings</li>
+                                </ul>
+                            </div>
+<!--                            <div class="services_card_learnmore">Learn More...</div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Track Academic Degrees -->
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                    <div class="services_cardwrapper">
+                        <div class="services_card_iconarea">
+                            <img src="/images/icon_degrees.png" class="services_card_icon">
+                        </div>
+                        <div class="services_card_content">
+                            <div class="services_card_title">Track Academic Degrees</div>
+                            <div class="services_card_text">
+                                Users can easily enter their academic degrees into SkillResults for reporting and analysis. Easily understand your educational posture.   
+                            </div>
+                            <div class="services_card_list">
+                                <ul>
+                                    <li>Large prepopulated list of Degrees</li>
+                                    <li>List of National and Regional Schools</li>
+                                    <li>Capture Areas of Study and More!</li>
+                                </ul>
+                            </div>
+<!--                            <div class="services_card_learnmore">Learn More...</div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Track Certs & Licences -->
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                    <div class="services_cardwrapper">
+                        <div class="services_card_iconarea" style="background-color: #00ba9f">
+                            <img src="/images/icon_certs.png" class="services_card_icon">
+                        </div>
+                        <div class="services_card_content">
+                            <div class="services_card_title">Track Certification & Licenses</div>
+                            <div class="services_card_text">
+                                SkillResults easily tracks your users professional certifications and licences for compliance reporting and analysis. 
+                            </div>
+                            <div class="services_card_list">
+                                <ul>
+                                    <li>Pre-populated lists of most major Certs</li>
+                                    <li>Capture the date of certification</li>
+                                    <li>Track your overall certification stance</li>
+                                </ul>
+                            </div>
+<!--                            <div class="services_card_learnmore">Learn More...</div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Skill Wishlists-->
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                    <div class="services_cardwrapper">
+                        <div class="services_card_iconarea">
+                            <img src="/images/icon_wishlist.png" class="services_card_icon">
+                        </div>
+                        <div class="services_card_content">
+                            <div class="services_card_title">Create Skill Wishlists</div>
+                            <div class="services_card_text">
+                                Do you want to know what training and skills your org really wants? SkillResults makes this easy with Skill Wishlists. 
+                            </div>
+                            <div class="services_card_list">
+                                <ul>
+                                    <li>Help Determine Career Growth Paths</li>
+                                    <li>Aid in Develpment Plans</li>
+                                    <li>Find Common Training Trends</li>
+                                </ul>
+                            </div>
+<!--                            <div class="services_card_learnmore">Learn More...</div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Powerful Search -->
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                    <div class="services_cardwrapper">
+                        <div class="services_card_iconarea" style="background-color: #00ba9f">
+                            <img src="/images/icon_search.png" class="services_card_icon">
+                        </div>
+                        <div class="services_card_content">
+                            <div class="services_card_title">Powerful Search</div>
+                            <div class="services_card_text">
+                                Instantly find your organizations skills & education information by using SkillResults built in Skill Search engine.
+                            </div>
+                            <div class="services_card_list">
+                                <ul>
+                                    <li>Find all Users with a Specific Skill</li>
+                                    <li>Search for a user and view their skills</li>
+                                    <li>Great for Team Colaboration!</li>
+                                </ul>
+                            </div>
+<!--                            <div class="services_card_learnmore">Learn More...</div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Skill Reporting -->
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                    <div class="services_cardwrapper">
+                        <div class="services_card_iconarea">
+                            <img src="/images/services_development.png" class="services_card_icon">
+                        </div>
+                        <div class="services_card_content">
+                            <div class="services_card_title">Built-in Reporting</div>
+                            <div class="services_card_text">
+                                Pre-built reports allow you to quickly and easily analyse, understand and take action on your organizations skill data.
+                            </div>
+                            <div class="services_card_list">
+                                <ul>
+                                    <li>Find Skill gaps across departments</li>
+                                    <li>Understand Skill and Education Levels</li>
+                                    <li>Download information in CSV formats</li>
+                                </ul>
+                            </div>
+<!--                            <div class="services_card_learnmore">Learn More...</div>-->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+    <!--Scroll Point (offset for fixed header)-->
+    <div id="usecases" style="position: relative; bottom:67px;"></div>
+
+    <!--Use Cases-->
+    <div class="services_area">
+
+        <div class="container">
+
+            <div class="services_title">SkillResults Common Use Cases</div>
+
+            <div class="services_description">SkillResults can be used in various ways once you have a clear vision of your organizations talent. From compliance to career planning to more, SkillResults helps you make actionable decisions based on hard data. Want to know more? Check out our <a href="" data-toggle="modal" data-target="#industries_modal" style="color:#ffffff; font-weight: 600">Industry Use Cases</a></div>
+
+            
+                        <div class="row">
+
+                <!--Program Template-->
+                <div class="col-md-12 col-lg-6">
+                    <div class="features_cardwrapper">
+                        <div class="features_cardtitle">Skill Assesments and Gap Analysis</div>
+                        <div class="features_cardimage"><img src="images/icon_usecase_skills.png" style="width:200px;"></div>
+                        <div class="features_cardtext">Where does each person stand with their skills? Where does each team or department stand with their current skills and education? If a critical person leaves, exactly what skills are needed now? 
+                            <br>
+                            <br>
+                            SkillResults helps to find growth areas and single points of failure. 
+
+<!--                            <div class="features_learnmore">Learn More...</div>-->
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--Program Template-->
+                <div class="col-md-12 col-lg-6">
+                    <div class="features_cardwrapper">
+                        <div class="features_cardtitle">Compliance Reporting</div>
+                        <div class="features_cardimage"><img src="images/icon_usecases_compliance.png" style="width:200px;"></div>
+                        <div class="features_cardtext">Regulations and Comliance efforts often require an org to be able to track its employees skills, degrees and certifications. SkillResults makes collecting and reporting on this critical information easy! 
+                            <br><br>
+                            Contact us to see how SkillResults can help with compliance!                         
+<!--                            <div class="features_learnmore">Learn More...</div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!--Program Template-->
+                <div class="col-md-12 col-lg-6">
+                    <div class="features_cardwrapper">
+                        <div class="features_cardtitle">Training and Development Planning</div>
+                        <div class="features_cardimage"><img src="images/icon_usecases_training.png" style="width:200px;"></div>
+                        <div class="features_cardtext">Training and development plans are much easier to create when you know exaclty what skills your people have and more importanly, what they want. 
+                            
+                            <br>
+                            <br>
+                            Built in Skill Wishlists help with your training and development goals!
+                            
+                            
+<!--                            <div class="features_learnmore">Learn More...</div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!--Program Template-->
+                <div class="col-md-12 col-lg-6">
+                    <div class="features_cardwrapper">
+                        <div class="features_cardtitle">Hiring and Succession Plans</div>
+                        <div class="features_cardimage"><img src="images/icon_usecases_hiring.png" style="width:200px;"></div>
+                        <div class="features_cardtext">Building teams is a critical componet of success. SkillResults can help hiring managers better understand gaps when expanding their team.  
+                            
+                            <br>
+                            <br>
+                            Use SkillResults to give managers deep insights of their talent. 
+                            
+<!--                            <div class="features_learnmore">Learn More...</div>-->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+    <!--Scroll Point (offset for fixed header)-->
+    <div id="freetrial" style="position: relative; bottom:66px;"></div>
+
+    <!--Free Trial Area-->
+    <div class="aboutus_area">
+
+        <div class="container">
+
+            <div class="aboutus_title">Free Trial or Software Demo</div>
+
+            <div class="aboutus_description">Would you like to see SkillResults up close and in action? It would be our pleasure to schedule a live software demo or setup a free trial for you and your oganization. There's no cost and no commitment, just a chance for us to show off our solution and answer any questions on how SkillResults can help unlock your talent investment! </div>
+            
+            <div class="row">
+
+            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <img src="/images/freetrial_1.png" class="freetrial_icon">
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <img src="/images/freetrial_2.png" class="freetrial_icon">
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <img src="/images/freetrial_3.png" class="freetrial_icon">
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <img src="/images/freetrial_4.png" class="freetrial_icon">
+            </div>
+
+        </div>
+
+        </div>
+        
+
+        
+    </div>
+
+    <!--Scroll Point (offset for fixed header)-->
+    <div id="contact" style="position: relative; bottom:67px;"></div>
+
+    <!--Contact Us-->
+    <div class="contact_area">
+
+        <div class="container">
+
+            <div class="contact_title" style="color:#ffffff">CONTACT US</div>
+
+            <div class="row">
+
+                <div class="col-md-12 col-lg-6">
+
+                    <div class="contact_description">
+                        Are you interested in a free SkillResults Trial or a software demo? SkillResults is a completely cloud-based solution and requires almost no setup. If you are interested in seeing SkillResults in action, please let us know and we will set something up!
+                        <br>
+                        <br>
+                        We would love to hear from you. Please Send us an email and we will contact you as soon as possible!
+                    </div>
+
+                    <div class="contact_text_button">
+
+                        <img src="images/icon_email.png" style="width:35px;">
+
+                        EMAIL SKILLRESULTS TODAY
+
+                    </div>
+
+                </div>
+
+                <!--Contact Us Image  -->
+                <div class="col-md-12 col-lg-6">
+                    <div>
+                        <img src="images/contact_us.png" class="contact_image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- INDUSTRY USE CASES MODAL -->
+    <div class="modal fade" id="industries_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Industry Use Cases</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              
+                    <div class="industries_title">CASE #1 - Private or Public Companies</div>
+                    <div class="industries_text">                   
+                        <p>A progressive company with diverse business operation has implemented a new strategic initiative to take inventory of in house talent, forecast needed skills for future business roles, and implement employee training and development plans including online coursework, and cross-disciplinary teams. </p>
+
+                        <p>With SkillResults they easily delegated capturing and populating this data right to the employees. It cost them zero headaches or favors from IT as secure login links to the cloud system are delivered to their work inbox on demand. Now they can easily run reports on who knows what, what their organizational skill concentrations and weak areas are, desired skill improvement from the employees, and build strong teams with the right mix of talent to succeed while cross-training.</p>
+
+                        <p>Employee development plans are now a breeze with skills, proficiencies, and desired improvement areas clearly spelled out right from the source. Purchasing online training for skill development have become a targeted science instead of throwing money at the wall and hoping something sticks, and the positive results of increased communication personal relationship with the workforce really shows.</p>
+                    </div>
+                    
+                    <div class="industries_title">CASE #2 - Educational Institutions</div>
+                    <div class="industries_text">                   
+                        <p>For example, a Private Institution of Higher Learning has an extensive online adult-education program and currently contracts over 1000 adjunct instructors. It has a difficult time keeping track of who is both credentialed and qualified to teach various courses, as well as keeping records of who has completed required training for their LMS (Learning Management System) and other internal systems and policies.
+
+                        <p>Using SkillResults, the university has an easy to access and manage skill matrix of all of their available adjuncts. They have even expanded use to full-time faculty for tenure and promotion, as well as staff to help establish development plans and annual review.</p>
+                    </div>
+              
+
+              
+                    <div class="industries_title">CASE #3 - Healthcare</div>
+                    <div class="industries_text">                   
+                        <p><strong>Regional Health Care Center</strong> has a tough time keeping up with the specialties, skill training, and certifications of the healthcare professionals in its many departments. At any given time the information needed is in a manila folder somewhere, or maybe in the EHR system. Likely impossible to find or use in any meaningful way if so. Come to think of it, who’s on staff that’s really good with the EHR? Is there someplace to look for that? Most of the knowledge of various skills and proficiencies reside only with the staff themselves, with no means of organization.</p> 
+
+                        <p>Trouble with a stick, don’t want to run a PICC, and not sure who’s the best at phlebotomy that’s on right now? Unsure whose renewable certs are expired or coming due? What was their degree and specialty again? Answering these questions went from long-term projects to a button click. SkillResults is open on a tab at just about every station because it’s so useful to quickly have talent on tap.</p> 
+                    </div>
+              
+                    <div class="industries_title">CASE #4 - Manufacturing</div>
+                    <div class="industries_text">                   
+                        <p>Imagine an industrial manufacturing facility is running a three-shift operation with a mix of both union and non-union workforce. HR is having a tough time defining the roles and necessary skills for each area, and capacity planning could really use a hand. Safety is finding it hard to keep track of who has completed what training, or has obtained what certifications. They’d really like to better leverage their ERP system, but it’s a task just to keep up with who's good at what part to establish any type of mentoring, or continued education.</p>
+
+                        <p>SkillResults is introduced and suddenly several issues become assets. Skill reports make capacity planning both easier and more strategic. Power users of the ERP are identified and used as onsite knowledge experts. Safety training and compliance records and renewals are easily managed. Engineering has developed continuing education plans for their department and the idea is starting to spread to other areas. While it all aligns nicely into their quality management system.</p>
+                    </div>
+              
+                    <div class="industries_title">CASE #5 - Shipping and Logistics</div>
+                    <div class="industries_text">                   
+                        <p>A LTL Freight Company has grown from a small family-owned operation to a large regional transportation company with terminal full of load planners, driver managers, recruiters, compliance, and everything in-between. While new contracts bring new growth, but it has been increasingly difficult to keep up with who knows or is certified/licensed for what, and when it is time for update or renewal. There’s plenty of room for both uptraining and cross-training as well, but knowing where to get started is enough to toss it into the "eventually" pile.</p>
+
+                        <p>Enter SkillResults and suddenly ISO quality is simplified, recruiting is using it to share skills and increase numbers, driver managers can rate and improve their performance, and it’s even become easier to pick people out for job fairs and trade shows. Not only can employees gauge the critical and supporting skills for their area, there is also transparency as to what makes other departments successful. Not to mention HR loves how useful it is for evaluation and improvement planning, or how job postings have become an export button.</p>
+                    </div>
+            </div>
+            
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- FAQ MODAL -->
+    <div class="modal fade" id="faq_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">FAQs</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                    
+                    <div class="faq_title">What is SkillResults?</div>
+                    <div class="faq_text">
+                      <p>SkillResults is an online system designed to help keep track of the skills and education of your organization's employees.</p>   
+                    </div>
+
+             
+                    <div class="faq_title">How does it work?</div>
+                                  <div class="faq_text">
+                    <p>Simply sign up, and import your users by their email address (individually or .csv). You can send them automated welcome emails with secure login links, or invite them to participate yourself in which case they can simply login with their email address.</p>
+                    <p>Adding skills is easy using the pre-populated skill catalog. Simply select a skill, set your proficiency, and add it to your profile. Our skill catalog makes it easy to discover skills broken out by area and category, or you can simply search for them by name.</p>
+                    <p></p>
+                    </div>
+                   
+                    <div class="faq_title">What else can it do?</div>
+                    <div class="faq_text">
+                        <p>Besides skill tracking SkillResults can also help track certifications, licenses, and degrees using the education section. Already loaded with over 9000 institutions of higher learning and vocational schools, as well as known award types and fields of study, adding and tracking education has never been easier.</p>
+                        <p>There's also the Skill Wishlist where your organization's users can add in the skills that they want to learn or the existing talents that they want to develop further.</p>
+                    </div>
+
+                    <div class="faq_title">Login with email address? You mean no passwords?</div>
+                    <div class="faq_text">
+                        <p>SkillResults uses a secure email address based, login token system. There's no need for a passwords because you interact with SkillResults using your most secure channel already, your work email. You simply enter your organizational email address into SkillResults and you are immediately sent a secure login link. That unique hyperlink takes you to, and authenticates you on, SkillResults. One click and you are sitting at your dashboard already logged in. </p>
+                        <p>It's like 2-factor authentication in reverse, we don't bother you with arbitrary passphrases and instead go right for the highest security validation available, your personal work inbox. By sending a unique secure login link directly to you, it gives you safe and convenient one-click access.</p> 
+                    </div>
+              
+                    <div class="faq_title">How does the login link work?</div>
+                    <div class="faq_text">
+                        <p>When you setup an employee in SkillResults, they are sent an automatic login link to their inbox. If they would like to login later, they just click "Login" on SkillResults.com and they are sent a brand new login link. Goodbye password resets, and complex login systems. No more having to memorize another string of nonsense. When a registered user enters their email address and clicks login, SkillResults generates a unique set of keys that will allow that user access.
+                        <p>You can reuse the link to access SkillResults until you request a new one from the login page, or until a set period of time expires. Your personal key to the system is in your hands, so don't share your email. Although, if you did accidently leave your key out, changing the locks is as easy as logging in again and generating a new key.</p>
+                    </div>
+        
+
+                    <div class="faq_title">What if someone gets access to my work email? Could they use the link to login?</div>
+                    <div class="faq_text">
+                        <p>Look. Let's be honest. If someone gets into your work email, you probably have bigger problems than skill tracking. I mean, we're great and all, but you should really get that looked at. Like now. Change your password. See, that's why we don't </p>
+                    </div>
+              
+                    <div class="faq_title">So my IT guy has questions...</div>
+                    <div class="faq_text">
+                        <p>Nerd Alert! amirite? Just kidding, we'd love to give details of how SkillResults works under the hood and behind the curtain. Check below for some technical specs on the technology behind SkillResults as well as details on our unique login system, and how it is actually one less worry for IT.</p>
+                        <p>Just between us, we're huge nerds too. Tell your IT guys to call us, we love talking shop. We'll dazzle them with numbers with lots of zeros as the chances of ever guessing a login key, invite them in to kick the tires, give them time to push the buttons and we'll even crack a lame sci-fi joke. Trust us, they'll love it. </p>
+                    </div>
+
+            </div>
+            
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer_area">
+        
+         <div class="container">
+
+            <div class="row">
+
+                <!--Free Assesment Report Image -->
+                <div class="col-md-12 col-lg-6">
+                    <div style="margin-bottom:20px;">
+                        
+                        <div>                        
+                            <a class="footer_navlink" href="#">Home</a> | 
+                            <a class="footer_navlink" href="#features">Features</a> | 
+                            <a class="footer_navlink" href="#usecases">Use Cases</a> | 
+                            <a class="footer_navlink" href="#freetrial">Free Trial</a>  |  
+                           <a class="footer_navlink" href="#contact">Contact</a>
+                        </div>
+                        
+                        <div style="margin-top:20px; font-size: 16px">                        
+                            <a class="footer_navlink" href="" data-toggle="modal" data-target="#faq_modal" >Frequently Asked Questions</a> | 
+                            <a class="footer_navlink" href="" data-toggle="modal" data-target="#industries_modal" >Industry Use Cases</a>
+                        </div>
+
+                        
+                        <div style="margin-top:20px;"> 
+                            <a href="https://app.skillresults.com/register/trial" title="Register" target="_blank">
+                                <div class="navbar_button" style="background-color: #15b458;">Sign Up</div>
+                            </a>
+                            <a href="https://app.skillresults.com/login" title="Login" target="_blank">
+                                <div class="navbar_button" style="background-color: #1076bc;">login</div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--Free Assesment Report Details-->
+                <div class="col-md-12 col-lg-6">
+                    <div style="padding-left:20px;">
+
+                        <img src="images/logo.png" style="width: 90%">
+
+                        <br>
+                        <br>
+
+                        2020 © Copyright Postmodern Code LLC
+
+                     </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body></html>
